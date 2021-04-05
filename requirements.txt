@@ -11,3 +11,4 @@ marshmallow-sqlalchemy==0.24.2
 psycopg2==2.8.6
 SQLAlchemy==1.4.5
 Werkzeug==1.0.1
+flask-marshmallow==0.8.0
