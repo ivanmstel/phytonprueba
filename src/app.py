@@ -20,7 +20,7 @@ from flask_marshmallow import Marshmallow
 
 app = Flask(__name__)
 # conexión con la base de datos: tipo+driver://usuario:clave@ip/bd
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:root@localhost/prueba'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://ecdvarvbesstqr:48a7bbd45cc1154b1f8067f8a4e179796115aad4a90be2fa2ff152563629feaa@ec2-52-50-171-4.eu-west-1.compute.amazonaws.com:5432/d4v2asm6smqvgk'
 #con este evitamos warinigs
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
